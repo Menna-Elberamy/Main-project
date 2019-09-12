@@ -52,3 +52,15 @@ else if (profile!=null)
             $(".Notifications p ").text("لا يوجد أشعارات اليوم")
         })
     }
+
+else if  (setting!=null)
+    {
+
+        $(".modal-body img").click(function (){
+
+            let imgsrc = $(this).attr("src");
+           let craent =  $("#selected-img").attr("src",imgsrc)
+            
+        })
+
+    }
