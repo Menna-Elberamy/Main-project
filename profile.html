@@ -15,22 +15,33 @@
 	
 		
 	</head>
-	<body>
+	<body id="profile">
 		
 			<!-- user profile nav bar -->
 			<ul class="nav justify-content-end ">
 					<li class="nav-item ">
-					  <a class="nav-link active" href="#">
+					  <a id="Notification-ic" class="nav-link active" href="#">
 						<i class="fa fa-2x flaticon-alarm"></i>
 					  </a>
 					  <li class="text-white">|</li>
 					</li>
 					<li class="nav-item mr-5">
-						<a class="nav-link active mr-5" href="#">
+						<a id="Message" class="nav-link active mr-5" href="#">
 							<i class="fa fa-2x flaticon-chat"></i>
 						</a>
 					</li>
 			</ul>
+
+			<!-- notifications and message drop-down -->
+			<div class="container">
+				<div class="row d-flex justify-content-end">
+					<div class="col-md-3">
+						<div class="notifications">
+							<p>نص</p>
+						</div>
+					</div>
+				</div>
+			</div>
 			<!-- profile full layout -->
 		<div class="container-fluid my-5 py-5">
 			<div class="row">
@@ -47,7 +58,9 @@
 										</div>
 										<div class="prof-setting  p-5">
 											<h6>setting</h6>
-											<i class="fa fa-cog"></i>
+											<a href="">
+												<i class="fa fa-cog"></i>
+												</a>
 										</div>
 						
 			</div>

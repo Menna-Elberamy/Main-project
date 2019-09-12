@@ -1,17 +1,17 @@
+var index = document.getElementById("index")
+var profile = document.getElementById("profile")
 
-
-//loading start function
-$(document).ready(function(){
+if (index!=null)
+    {
+       //loading start function
+    $(document).ready(function(){
     $("#loading").fadeOut(2000);
     $("#ecg").fadeOut(2000 , function(){
         $("body").css("overflow" , "auto");
     })
-})
-    
-
-
-//owl crasuol for parients section1
-$('.owl-carousel').owlCarousel({
+    })
+    //owl crasuol for parients section1
+    $('.owl-carousel').owlCarousel({
     rtl:true,
     loop:true,
     margin:15,
@@ -35,11 +35,20 @@ $('.owl-carousel').owlCarousel({
             items:3
         }
     }
-})
+    })
 
-var btnDonor=document.getElementById(btndonor);
-                                    
-btnDonor.onclick=function()
-{
-    document.getElementById(lightbox).style.display="flex";
-}
+    }
+
+else if (profile!=null)
+    {
+        // ----------------profile_epage
+        $("#Message").click( function() {
+            $(".Notifications").slideToggle(500)
+            $(".Notifications p ").text("لا يوجد رسائل اليوم")
+        })
+
+        $("#Notification-ic").click( function() {
+            $(".Notifications").slideToggle(500)
+            $(".Notifications p ").text("لا يوجد أشعارات اليوم")
+        })
+    }
