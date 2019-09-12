@@ -1056,7 +1056,53 @@ section .max{max-width: 600px;}
 /*. . . . . .. . . .. . . ..  . . . .*/
 /*End of  PROFILE-PAGE */ 
 
+/*. . . . . .. . . .. . . ..  . . . .*/
+/*. . . . . .. . . .. . . ..  . . . .*/
+/*. . . . . .. . . .. . . ..  . . . .*/
+/*start of  PROFILE-SETTINGS */
+#setting-nav 
+{
+	background-color: #3b39708a
+}
+#setting-nav .nav-item a
+{  
+	background-color: #FFF;
+	
+	margin-left: 50px;
+}
+#setting-nav .nav-item a:hover
+{
+	margin-left: 30px;
+	transition: .75s;
+	animation: move-out;
+}
+@keyframes move-out {
+	from {margin-left: 50px;}
+	to{margin-left: 35px;}
+  }
+  .main-header h2
+  {
+	  color: gray
+  }
+  .sideImg img 
+  {
+	  border-radius:50%;
+  }
+  .modal-body .container .col-md-3 img 
+  {
+	  border: 1px solid #FFF;
+	  border-radius: 50%;
+	  cursor: pointer
+  }
+  #edite-btn
+  {
+    font-size:25px;
+  }
 
+/*. . . . . .. . . .. . . ..  . . . .*/
+/*. . . . . .. . . .. . . ..  . . . .*/
+/*. . . . . .. . . .. . . ..  . . . .*/
+/*End of  PROFILE-SETTINGS */ 
 
 
 
