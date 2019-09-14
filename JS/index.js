@@ -1,5 +1,6 @@
-var index = document.getElementById("index")
+﻿var index = document.getElementById("index")
 var profile = document.getElementById("profile")
+var setting = document.getElementById("setting")
 
 if (index!=null)
     {
@@ -55,7 +56,7 @@ else if (profile!=null)
 
 else if  (setting!=null)
     {
-
+	// ----------------setting_epage
         $(".modal-body img").click(function (){
 
             let imgsrc = $(this).attr("src");
